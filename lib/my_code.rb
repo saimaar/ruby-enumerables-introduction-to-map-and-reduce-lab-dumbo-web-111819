@@ -4,8 +4,7 @@ def map_to_negativize(source_array)
   i = 0 
   while i < source_array.length do
     num = source_array[i]
-    p num
-    i += 1
+    result.push(num * -1)
   end 
-
+result
 end 
