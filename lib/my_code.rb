@@ -22,6 +22,8 @@ def map_to_no_change(source_array)
   result 
 end
 
+def red
+
 def map_to_double(source_array) 
   result = []
   i = 0 
