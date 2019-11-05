@@ -55,3 +55,4 @@ def reduce_to_total(source_array)
   end 
   total
 end 
+
