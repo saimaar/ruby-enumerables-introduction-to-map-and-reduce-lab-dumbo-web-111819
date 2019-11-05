@@ -26,7 +26,7 @@ def map_to_double(source_array)
   result = []
   i = 0 
   while i < source_array.length do 
-    
+    num = source_array[i]
     i+=1 
   end 
 end 
