@@ -7,5 +7,7 @@ def map_to_negativize(source_array)
     result.push(num * -1)
     i += 1
   end 
+  p result
 result
+
 end 
