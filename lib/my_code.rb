@@ -45,6 +45,6 @@ def map_to_square(source_array)
 end 
 
 
-def reduce_to_total(source_array) 
-  puts s
+def reduce_to_total(source_array)
+  puts source_array
 end 
