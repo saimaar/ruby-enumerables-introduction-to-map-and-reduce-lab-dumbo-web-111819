@@ -56,3 +56,6 @@ def reduce_to_total(source_array)
   total
 end 
 
+def reduce_to_total(source_array, starting_point) 
+  p starting_point
+end 
