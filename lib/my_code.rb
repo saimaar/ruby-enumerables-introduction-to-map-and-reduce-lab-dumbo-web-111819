@@ -57,10 +57,14 @@ def reduce_to_total(source_array, starting_point = 0)
 end 
 
 def reduce_to_all_true(source_array)
-  falsey_values= [False, false, nil]
-  i = 0 
-  while i < source_array.length do 
+  falsey_values= [FALSE, false, nil]
+  i = 0
+  while i < source_array.length do
     num = source_array[i]
-    
-  end 
+    if falsey_values.index(num) != nil
+      return false
+    end
+    i +=1
+  end
+  true
 end 
