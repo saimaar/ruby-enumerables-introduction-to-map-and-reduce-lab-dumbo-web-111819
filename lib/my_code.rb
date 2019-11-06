@@ -68,3 +68,16 @@ def reduce_to_all_true(source_array)
   end
   true
 end 
+
+def reduce_to_any_true(source_array)
+  falsey_values= [FALSE, false, nil]
+  i = 0
+  while i < source_array.length do
+    num = source_array[i]
+    if falsey_values.index(num) == nil
+      return true
+    end
+    i +=1
+  end
+  false
+end
